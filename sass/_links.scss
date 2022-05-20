@@ -1,6 +1,15 @@
 @media screen and (min-width:760px){
     .links{
         list-style-type: none;
+
+        li{
+            @each $red, $color in $redes{
+                .red-#{$red}{
+                    color: $color;
+                }
+            }
+        }
     }
-    
+
+
 }
