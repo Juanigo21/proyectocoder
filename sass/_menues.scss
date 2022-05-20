@@ -1,0 +1,37 @@
+@media screen and (min-width:760px){
+    .Menues{
+        background-color: white;
+        text-align: left;
+        border-collapse: collapse;
+        width: 600px;
+    
+        thead{
+            background-color: coral;
+            border-bottom: solid black;
+    
+            th, td{
+                /*border: solid 1px black;*/
+                padding: 10px;
+            }
+        }
+    
+        tbody tr{
+            background-color: whitesmoke;
+    
+            th, td{
+                /*border: solid 1px black;*/
+                padding: 10px;
+            }
+        }
+    }
+    
+    .plato{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+    .encaje{
+        display: flex;
+    
+    }
+}    
